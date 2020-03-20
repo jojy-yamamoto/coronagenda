@@ -1,0 +1,21 @@
+.footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: $secondary;
+  color: $white;
+  margin-bottom: 0px;
+  margin-top: 80px;
+  bottom: 0px;
+  width: 100%;
+  a{
+    color: white;
+    text-decoration: underline;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+}
+
+.copyright {
+  margin: auto;
+}

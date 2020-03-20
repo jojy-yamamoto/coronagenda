@@ -1,0 +1,26 @@
+.modal-header{
+    background-color: $secondary!important;
+    .modal-title{
+        color: $covid-dark-green;
+        margin-left: 10px;
+    }
+}
+.modal-body {
+    padding: 2rem;
+    h3{
+        margin: 20px 0;
+    }
+}
+.agenda-item{
+    padding: 20px;
+    text-align: center;
+    border-right: solid 1px;
+    border-color: $gray-200;
+    .agenda-item-head{
+        height: 100px;
+    }
+}
+
+.agenda-item:last-child{
+    border-right:none;
+}

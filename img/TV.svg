@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="95px" viewBox="0 0 106 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>TV</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-6.9050217%" y1="81.2821688%" x2="113.718828%" y2="23.5610391%" id="linearGradient-1">
+            <stop stop-color="#D6AEEF" offset="0%"></stop>
+            <stop stop-color="#67BCEF" offset="49.4906039%"></stop>
+            <stop stop-color="#2EE4E0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="19" width="81" height="58" rx="8"></rect>
+        <filter x="-8.6%" y="-8.6%" width="117.3%" height="124.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DASHBOARD---User" transform="translate(-255.000000, -217.000000)">
+            <g id="TV" transform="translate(238.000000, 182.000000)">
+                <path d="M94.0779178,105.795814 C78.6478779,105.795814 72.1546703,116 52.1930927,116 C40.7346452,116 28.6528009,105.429596 21.7390719,95.1900498 C10.3375588,78.3038923 20.2749309,62.4098487 43.3357721,60.0854685 C52.2760423,59.1843485 57.1416552,58.2886488 58.7043585,48.3175292 C60.2670618,38.3464097 73.4705087,21.209517 93.1739062,25.7506454 C103.02583,28.0212615 109.012654,32.3642963 111.16273,45.2084719 C113.312805,58.0526476 112.904105,62.4125217 120.221787,68.9034089 C129.771042,77.3737337 121.276951,103.584418 94.0779178,105.795814 Z" id="Path" fill-opacity="0.6" fill="url(#linearGradient-1)" fill-rule="nonzero" transform="translate(70.500000, 70.500000) rotate(44.000000) translate(-70.500000, -70.500000) "></path>
+                <g id="Group-8" transform="translate(65.500000, 77.500000) rotate(-16.000000) translate(-65.500000, -77.500000) translate(25.000000, 39.000000)">
+                    <g id="Group-7" transform="translate(26.000000, 0.000000)">
+                        <line x1="13.65" y1="16.5235161" x2="2.45" y2="8.36351613" id="Line-2" stroke="#979797" stroke-linecap="square"></line>
+                        <line x1="16.5775219" y1="14.5072551" x2="24.1757874" y2="3.08454542" id="Line-2-Copy" stroke="#979797" stroke-linecap="square"></line>
+                        <ellipse id="Oval-Copy-4" fill="#80C6E0" cx="2.8" cy="8.02351613" rx="2.8" ry="2.72"></ellipse>
+                        <ellipse id="Oval-Copy-5" fill="#80C6E0" transform="translate(24.549350, 3.400000) rotate(86.000000) translate(-24.549350, -3.400000) " cx="24.5493496" cy="3.4" rx="2.7203951" ry="2.79961638"></ellipse>
+                    </g>
+                    <ellipse id="Oval-Copy-3" fill="#80A0B3" cx="40.5" cy="25" rx="10.5" ry="11"></ellipse>
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                    <rect id="Rectangle" fill="#80C6E0" x="8" y="27" width="54" height="43" rx="8"></rect>
+                    <circle id="Oval" fill="#80A0B3" cx="72.5" cy="45.5" r="3.5"></circle>
+                    <circle id="Oval-Copy-2" fill="#80A0B3" cx="72.5" cy="55.5" r="3.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
