@@ -33,12 +33,24 @@
 
 </head>
 
-<body id="page-top">
-
-  <section>
+<body>
+  <header class="header">
     <div class="container">
+      <div class="row">
+        <div class="col-sm-6 text-left">
+          <h1><img src="img/coronagenda_logo.svg" alt="Coronagenda"></h1>
+        </div>
 
-      <h1><img src="img/coronagenda_logo.svg" alt="Coronagenda"></h1>
+        <!-- <div class="col-sm-6 text-right">
+          <a class="btn switch" href="kidz.html" title="Accédez à la version enfant du Coronagenda"><img class="icon" src="img/out.svg"><img src="img/coronagenda_kidz_light.svg" alt="Logo Coronagenda Kidz"></a>
+        </div> -->
+      </div>
+      </div>
+  </header>
+  <section>
+    <div class="container coronagenda_content">
+      <p class="intro">Chaque jour une activité, une recette, un programme télé spécialement conçus pour continuer de s’épanouir dans cette période de confinement&nbsp;!</p>
+      <!-- <p class="p-switch">Vous cherchez des activités pour les enfants ? Découvrez <a href="kidz.html">Coronagenda kidz</a></p> -->
       <div class="row">
         <div class="col-md-3">
           <div class="calendar-item text-center" data-toggle="modal" data-target="#Modal2">
@@ -107,25 +119,25 @@
           </div>
         </div>
         <div class="col-md-3">
-          <div class="calendar-item text-center disabled" data-toggle="modal" data-target="#Modal3">
+          <div class="calendar-item text-center disabled" data-toggle="modal" data-target="#Modal13">
             <div class="calendar-item-title">Jour 12</div>
             <div class="calendar-item-day">Samedi 28 Mars</div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="calendar-item text-center disabled" data-toggle="modal" data-target="#Modal4">
+          <div class="calendar-item text-center disabled" data-toggle="modal" data-target="#Modal14">
             <div class="calendar-item-title">Jour 13</div>
             <div class="calendar-item-day">Dimanche 29 Mars</div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="calendar-item text-center disabled" data-toggle="modal" data-target="#Modal5">
+          <div class="calendar-item text-center disabled" data-toggle="modal" data-target="#Modal15">
             <div class="calendar-item-title">Jour 14</div>
             <div class="calendar-item-day">Lundi 30 Mars</div>
           </div>
         </div>
         <div class="col-md-3">
-          <div class="calendar-item text-center disabled" data-toggle="modal" data-target="#Modal6">
+          <div class="calendar-item text-center disabled" data-toggle="modal" data-target="#Modal16">
             <div class="calendar-item-title">Jour 15</div>
             <div class="calendar-item-day">Mardi 31 Mars</div>
           </div>
@@ -515,14 +527,11 @@
   </div>
 </div>
 
+<!-- Custom scripts for this template -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 
-  
-
-  <!-- Custom scripts for this template -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161217363-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
