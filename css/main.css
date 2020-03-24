@@ -7211,8 +7211,6 @@ a.text-dark:hover, a.text-dark:focus {
     background-position: center;
     background-color: #5e8588 !important;
     cursor: default; }
-  .calendar-item.disabled:hover {
-    background-color: #5e8588; }
   .calendar-item.instagram:hover {
     background-color: rgba(136, 226, 223, 0.459); }
   .calendar-item.instagram {
@@ -7231,9 +7229,6 @@ a.text-dark:hover, a.text-dark:focus {
 .calendar-item:hover:after {
   background-color: #00BCCA; }
 
-.bg-primary {
-  background-color: #00BCCA !important; }
-
 .kidz .covid-kidz-1 {
   background-color: #009245; }
 
@@ -7245,6 +7240,43 @@ a.text-dark:hover, a.text-dark:focus {
 
 .kidz .covid-kidz-4 {
   background-color: #FF7BAC; }
+
+.kidz .covid-kidz-1:hover {
+  background-color: #0c753d; }
+
+.kidz .covid-kidz-2:hover {
+  background-color: #3691d3; }
+
+.kidz .covid-kidz-3:hover {
+  background-color: #cf7514; }
+
+.kidz .covid-kidz-4:hover {
+  background-color: #d3628b; }
+
+.kidz .calendar-item.covid-kidz-1:hover:after {
+  background-color: #009245; }
+
+.kidz .calendar-item.covid-kidz-2:hover:after {
+  background-color: #3FA9F5; }
+
+.kidz .calendar-item.covid-kidz-3:hover:after {
+  background-color: #FF931E; }
+
+.kidz .calendar-item.covid-kidz-4:hover:after {
+  background-color: #FF7BAC; }
+
+.kidz .btn, .kidz .calendar-item.instagram, .kidz .modal-header {
+  background-color: #FFF3D0;
+  color: #a02900; }
+
+.kidz .switch:hover, .kidz .calendar-item.instagram:hover {
+  background-color: #f5e7bf; }
+
+.kidz .modal-header .modal-title {
+  color: #a02900; }
+
+.kidz .calendar-item.disabled {
+  background-color: #C7B68E !important; }
 
 .kidz .header .switch {
   margin: 25px 0; }
@@ -7316,7 +7348,7 @@ p {
 .footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #E0FBFB;
+  background-color: #00BCCA;
   color: #fff;
   margin-bottom: 0px;
   margin-top: 80px;
@@ -7333,11 +7365,14 @@ p {
 .copyright {
   margin: auto; }
 
+.kidz .footer {
+  background-color: #FDC315 !important; }
+
 .modal-dialog {
   max-width: 1080px; }
 
 .modal-header {
-  background-color: #E0FBFB !important; }
+  background-color: #E0FBFB; }
   .modal-header .modal-title {
     color: #078B95;
     margin-left: 10px; }
