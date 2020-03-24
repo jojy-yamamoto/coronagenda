@@ -7419,4 +7419,9 @@ p {
   .agenda-item:last-child {
     border-bottom: none; }
   .modal-body {
-    padding: 0rem 1.5rem; } }
+    padding: 0rem 1.5rem; }
+  .kidz .modal-dialog .agenda-item {
+    border-bottom: none; }
+    .kidz .modal-dialog .agenda-item.col-md-3 {
+      text-align: center;
+      padding-bottom: 0px; } }
